@@ -1,0 +1,32 @@
+.contenedor{
+    height: 420px;
+    width: 320px;
+    border-radius: 5px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.calculadora{
+    width: 100%;
+    height: 100%;
+    
+}
+input[type="text"]{
+    width: 313px;
+    height: 25%;
+    border-radius: 5px;
+    background-color: azure;
+    text-align: right;
+}
+button{
+    border-radius: 50px;
+    width: 23.9%;
+    height: 18.4%;
+}
+body{
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    display: flex;
+}
